@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wraper {
+   padding: 0 20px;
+   flex-grow: 1;
+}
+
+/* .swiper-container {   
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+} */
+
+.swiper-wrapper {
+    box-sizing: content-box;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+}
+
+.swiper-container h1 {
+    text-align: center;
+    margin: 30px 0;    
+}
+
+.swiper-slide img {   
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;    
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 20px;   
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(10, 13, 168);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sortButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.sortButtons button {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(123, 8, 40);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
