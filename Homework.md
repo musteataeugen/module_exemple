@@ -1,4 +1,4 @@
-<!-- HW1: make a frontend simple app based on Modules:
+HW1: make a frontend simple app based on Modules:
      this will be a single page which will use swiper carousel
      will present products: each product ->slide,
      3 per scroll on big screen, 1 per scroll on small screen
@@ -24,20 +24,21 @@
                     |
                     newElement(parent,content,classes,...)-->
 
-<!-- HW2: try to layout the Inside of each slide using bootstrap - card component -->
-<!-- HW3: advanced DOM (.createElement()...+helper functions) -->
+ HW2: try to layout the Inside of each slide using bootstrap - card component
+ HW3: advanced DOM (.createElement()...+helper functions) 
 
 
 
 
 
-<!-- Swiper & Bootstrap Card DOM
+ Swiper & Bootstrap Card DOM
 
 <div class="swiper-container">
     <h1>Our Products</h1>
-    <!-- Swiper wrapper -->
+    <Swiper wrapper
     <div class="swiper-wrapper">
-        <!-- Example product card -->
+    
+         Example product card -->
 
        <div class="swiper-slide">
             <div class="card"  style="width: 18rem;">
