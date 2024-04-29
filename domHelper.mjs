@@ -95,9 +95,6 @@ function loadProducts() {
     });
 }
 
-loadProducts();
-
-const swiperContainer = document.querySelector('.swiper-container');
-swiperContainer.addEventListener('DOMContentLoaded', loadProducts);
+// Export the loadProducts function
 
 export {loadProducts, sortByName, sortByPrice};
